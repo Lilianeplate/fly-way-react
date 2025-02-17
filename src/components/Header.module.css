@@ -1,0 +1,111 @@
+.headerContainer {
+    align-items: center;
+    background: #9AAFC3;
+
+    align-items: center;
+}
+
+.headerContent {
+    display: inline-flex;
+    padding: 0px 8px;
+    align-items: center;
+    gap: 64px;
+}
+
+.headerContent img {
+    width: 150px;
+    height: 140px;
+}
+
+.headerContent input {
+    display: flex;
+    width: 403px;
+    height: 54px;
+    padding: 17px 33px;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    border-radius: 35px;
+    border: 2px solid var(--stroke-button, #344A53);
+    background: var(--background-button2, #9AAFC3);
+
+   
+    box-shadow: 3px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+.headerContent input::placeholder{
+    color: var(--Color-text-button, #1F0660);
+    text-align: center;
+    font-family: "Josefin Slab";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+button {
+    display: flex;
+    width: 213px;
+    height: 54px;
+    padding: 17px 45px;
+    align-items: center;
+    gap: 20px;
+    border-radius: 35px;
+    border: 2px solid var(--stroke-button, #344A53);
+    background: var(--background-button2, #9AAFC3);
+    color: var(--Color-text-button, #1F0660);
+    text-align: center;
+    font-family: "Josefin Slab";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    /* button */
+    box-shadow: 3px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+
+}
+
+/* Estiliza o container do input */
+.searchContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+/* Ícone dentro do input */
+.searchIcon {
+    position: absolute;
+    left: 90px; /* Ajuste para alinhar corretamente */
+    color: #344A53;
+    font-size: 18px;
+}
+
+/* Input estilizado */
+.searchInput {
+    width: 403px;
+    height: 54px;
+    padding: 17px 33px 17px 45px; /* Espaço extra à esquerda para não sobrepor o ícone */
+    border-radius: 35px;
+    border: 2px solid var(--stroke-button, #344A53);
+    background: var(--background-button2, #9AAFC3);
+    box-shadow: 3px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 15px;
+    font-family: "Josefin Slab";
+    font-weight: 700;
+    color: var(--Color-text-button, #1F0660);
+}
+
+/* Placeholder estilizado */
+.searchInput::placeholder {
+    color: var(--Color-text-button, #1F0660);
+    text-align: center;
+}
+
+/* Efeito ao focar no input */
+.searchInput:focus {
+    outline: none;
+    border-color: #1F0660;
+}
