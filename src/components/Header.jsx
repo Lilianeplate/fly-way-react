@@ -1,23 +1,3 @@
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import styles from './Header.module.css';  // Importação do arquivo CSS Module
-
-// function Header () {
-//   return (
-//     <div className={styles.headerContainer}>
-//     <div className={styles.headerContent}>
-//         <img src="src/assets/FlyWay-p.png" alt="" />
-//         <input type="search" placeholder='O que você procura?' />
-//         <button>Quem somos?</button>
-//         <button>Objetivos</button>
-//         <button>Fale com a gente</button>
-//       </div>
-//     </div>
-//   )
-// }
-
-// export default Header
-
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlane, faSearch, faUsers, faComment } from '@fortawesome/free-solid-svg-icons';
 import styles from './Header.module.css';  // Importação do CSS Module
