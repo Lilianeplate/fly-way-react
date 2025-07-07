@@ -1,20 +1,16 @@
-import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-import './App.css'
+import './App.css';
 import Header from './components/Header.jsx';
-
-
+import ImageSlider from './components/ImageSlider.jsx';
+import Search from './components/Search.jsx'; // Corrigido aqui
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        < Header />
-      </div>
+      <Header />
+      <ImageSlider />
+      <Search /> {/* Corrigido aqui */}
     </>
-  )
+  );
 }
 
-export default App
+export default App;
